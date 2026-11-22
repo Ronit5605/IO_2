@@ -1,0 +1,28 @@
+{
+  "name": "iot-smart-ambulance-backend",
+  "version": "1.0.0",
+  "description": "Backend API, Socket.IO server, and MQTT bridge for IoT-Based Smart Ambulance & Emergency Communication System",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/utils/seedData.js",
+    "simulator": "node src/services/simulationService.js"
+  },
+  "dependencies": {
+    "aedes": "^0.51.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.9.6",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

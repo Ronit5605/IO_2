@@ -1,0 +1,25 @@
+{
+  "name": "iot-smart-ambulance-system",
+  "version": "1.0.0",
+  "description": "IoT-Based Smart Ambulance and Emergency Communication System",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "simulator": "cd iot/simulator && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "iot",
+    "esp32",
+    "ambulance",
+    "emergency-response",
+    "mqtt",
+    "socket.io",
+    "react",
+    "leaflet"
+  ],
+  "author": "SmartPulse Development Team",
+  "license": "MIT"
+}

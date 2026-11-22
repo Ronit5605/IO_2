@@ -1,0 +1,13 @@
+{
+  "name": "smart-ambulance-iot-simulator",
+  "version": "1.0.0",
+  "description": "Standalone IoT Hardware Simulator publishing real-time telemetry over MQTT or HTTP",
+  "main": "iot_simulator.js",
+  "type": "module",
+  "scripts": {
+    "start": "node iot_simulator.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.10.4"
+  }
+}
